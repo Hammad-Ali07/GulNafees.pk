@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useEffect, useState } from 'react';
 import { client } from '@/sanity/lib/client';
 import ProductListing from '../components/ProductListing';
@@ -9,7 +8,6 @@ import Image from 'next/image';
 import Pagination from '../components/pagination';
 
 // Define Product interface
-
 
 const Shop = () => {
   const [products, setProducts] = useState<Product[]>([]);
